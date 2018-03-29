@@ -1,0 +1,598 @@
+body {
+margin: 0px;
+font-family: roboto;
+}
+
+.top-panel {
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+    color: #F5F5F5;
+}
+.fh-top-panel {
+    width: 20%;
+    line-height: 70px;
+    /*background-color: yellow;*/
+    text-align: center;
+    /*font-weight: bold;*/
+    font-family: Neon Lights;
+    font-size: 30px;
+    color: #FFFFFF;
+    /*cursor: pointer;*/
+    display: inline-block;
+    cursor: pointer;
+}
+.sh-top-panel {
+    /*background-color: green;*/
+    /* display: inline-block; */
+    float: right;
+    line-height: 70px;
+    text-align: center;
+    width: 60%;
+}
+.sh-top-panel2 {
+    /*background-color: green;*/
+    /* display: inline-block; */
+    float: right;
+    line-height: 70px;
+    text-align: right;
+    width: 60%;
+    margin-right: 30px;
+}
+.top-panel-input {
+    height: 30px;
+    border: 0px;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    margin: auto 5px;
+    color: #333;
+    width: 200px;
+    font-family: "Laksaman";
+    font-weight: bold;
+
+}
+.top-panel-input::placeholder {
+    text-align: center;
+}
+.top-panel-input:focus{
+/*    background-color: #5CA4F9;*/
+    background-color: #B42DD2;
+    color: #FFFFFF;
+}
+.top-panel-input:focus::placeholder {
+    color: #FFFFFF;
+}
+.top-panel-signin {
+    height: 30px;
+    border: 0px;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    margin: auto 5px;
+    width: 100px;
+    background-color: #39B54D;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.top-panel-signup {
+    /* height: 30px; */
+    border: 0px;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    background-color: #3997B5;
+    color: #FFFFFF;
+    display: inline;
+    font-size: 85%;
+    cursor: pointer;
+}
+.top-panel-signup:hover{
+    background-color: #39B583;
+}
+.top-panel-logout-button{
+    /* position: absolute; */
+    text-align: right;
+}
+.shop-panel {
+    height: 450px;
+    width: 90%;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    border: 2px solid #333;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-image: url(img/img3.jpg);
+    /*background-repeat: no-repeat;*/
+}
+.shop-panel-header {
+    margin: auto;
+    text-align: center;
+    background-color: #333;
+    border: 2px solid #333;
+    font-family: "Port Credit";
+    font-size: 200%;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 60px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.shop-panel-shops {
+    height: 250px;
+    width: 250px;
+    margin: 70px 20px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.shop-panel-shops.shop1{
+    margin-left: 40px;
+    background-color: #39B54D;
+    border: 1px solid #39B54D;
+}
+.shop-panel-shops.shop2{
+    background-color: #B5395C;
+    border: 1px solid #B5395C;
+}
+.shop-panel-shops.shop3{
+    background-color: #6739B5;
+    border: 1px solid #6739B5;
+}
+.shop-panel-shops.shop4{
+    background-color: #3997B5;
+    border: 1px solid #3997B5;
+}
+.shop-panel-shop-name{
+    text-align: center;
+    line-height: 120px;
+    font-family: LittleLordFontleroy;
+    font-size: 70px;
+    color: #FFF;
+    /*background-color: yellow;*/
+
+}
+.shop-panel-shop-address {
+    text-align: center;
+    line-height: 33px;
+    font-family: "Helvetica";
+    color: #FFF;
+    font-size: 88%;
+}
+.categories-header-div {
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Port Credit';
+    background-color: #FFF;
+    margin: 0px auto 30px auto;
+    color: #006699;
+}
+.category-piece {
+    height: 300;
+    width: 260;
+    /*background-color: yellow;*/
+    margin: 20px auto;
+    display: inline-block;
+}
+.round-250{
+    width: 250px;
+    height: 250px;
+    border: 0px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    cursor: pointer;
+    /*background-color: yellow;*/
+}
+.category-name {
+    width: 260px;
+    line-height: 50px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Primer Print';
+    font-size: 30px;
+}
+.hide-it {
+    display: none;
+}
+.signup-header {
+    height: 80px;
+    width: 70%;
+    font-family: 'Port Credit';
+    text-align: center;
+    line-height: 80px;
+    /* background-color: #666; */
+    margin: 60px auto 0px auto;
+    font-size: 30px;
+    color: #A139B5;
+    /* border-radius: 100px; */
+    /* border: 1px solid #666; */
+    cursor: pointer;
+    font-weight: bold;
+}
+.signup-section{
+    width:100%;
+    /* background-color: cyan; */
+    height: 400px;
+    margin: auto;
+}
+.signup-input{
+    margin: 20px 35% 0px 35%;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #666;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    /* border-radius: 15px; */
+    font-size: 90%;
+    outline: none;
+    color: #666;
+    font-family: roboto;
+    padding: 15px;
+}
+.signup-input:focus{
+    border-radius: 0px;
+    /* background-color: rgb(205, 252, 213); */
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #A139B5;
+    background-color: #ECFBFF;
+}
+.signup-input::placeholder {
+    color: #666;
+}
+.signup-error{
+    width: 60%;
+    margin: 3px auto;
+    text-align: center;
+    font-family: roboto;
+    color: red;
+    font-size: 80%;
+}
+.sign-me-up-btn{
+    width: 25%;
+    margin: 30px auto;
+    height: 40px;
+    background-color: #666;
+    border: 0px;
+    color: #FFF;
+    line-height: 40px;
+    font-size: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.sign-me-up-btn:hover{
+    background-color: #A139B5;
+}
+
+.search-panel {
+    width: 100%;
+    font-family: 'roboto';
+    height: 70px;
+    background-color: #333333;
+    margin-top: 0px;
+}
+
+.search-something {
+    margin: auto;
+    width: 70%;
+    font-size: 23px;
+/*    font-weight: bold;*/
+    color: #FFFFFF;
+    text-align: right;
+/*    background-color: yellow;*/
+    line-height: 70px;
+    display: inline-block;
+    font-family: 'Port Credit';
+}
+.search-button {
+    background-color: #006699;
+    border-radius: 20px;
+    border: 0px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto 10px;
+}
+
+
+.custom-margin {
+    margin: auto auto auto 57px;
+/*    background-color: #DDDDDD;*/
+}
+
+.search-button:hover {
+    background-color: #B42DD2;
+}
+
+.top-panel-signin:hover {
+    background-color: #B42DD2;
+}
+
+.search-portion-span {
+    line-height: 70px;
+}
+
+.custom-margin::placeholder {
+/*    color: red;*/
+/*    font-family: "Laksaman";*/
+}
+
+.custom-signup {
+    margin-right: -107;
+}
+
+.top-panel-logout-button:hover {
+    background-color: #E14F4F;
+}
+.shop-name-font {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 70px;
+    font-family: "Neon Lights";
+/*    font-family: "Helvetica";*/
+    color: #A139B5;
+    background-color: #FFF;
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.product-piece {
+    width: 300px;
+    height: 360px;
+    overflow: hidden;
+/*    background-color: green;*/
+    margin: auto auto 5px 5px;
+    border: 1px solid #aaa;
+    display: inline-block;
+}
+
+.product-image {
+    width:150;
+    height: 150;
+    margin:  5px auto;
+/*    background-color: yellow;*/
+}
+
+.product-details {
+    height: 135px;
+    width: 290px;
+    margin: 5px auto 5px auto;
+/*    background-color: darkcyan;*/
+}
+
+.product-details-header {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'roboto';
+    text-align: center;
+/*    top: 5px;*/
+    margin: 3px auto 3px auto;
+    color: #A139B5;
+}
+
+.product-details-content {
+/*    margin: 7px auto;*/
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    width: 97%;
+}
+
+.cart-options-div {
+    width: 290;
+/*    background-color: #333;*/
+    height: 73px;
+    margin: 7px auto 5px auto;
+}
+
+
+
+#product-list-section {
+    margin: auto;
+}
+
+.stock-round {
+    height: 49px;
+    width: 49px;
+    background-color: #24916C;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 49px;
+    display: inline-block;
+    color: #FFF;
+    font-weight: bold;
+    font-family: "SFNS Display";
+    margin: 5px;
+/*    margin: 10px 10px;*/
+/*    position: relative;*/
+/*    margin: 12px;*/
+}
+
+.stock-round-input {
+    outline: none;
+    border: 1px solid #912442;
+    background-color: #912442;
+}
+
+.cart-add-button {
+    outline: none;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #8C2491;
+    background-color: #8C2491;
+    color: #FFF;
+    font-family: "helvetica";
+    font-size: 16px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    position: relative;
+    top: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+/*    font-weight: bold;*/
+}
+
+.cart-add-button:hover {
+    background-color: #BF49B8;
+    border: 1px solid #BF49B8;
+}
+.nothing-to-display{
+    width: 100%;
+    line-height: 120px;
+    font-size: 22px;
+/*    font-family: helvetica;*/
+    font-family: 'Neon Lights';
+    color: #FF4B4B;
+    text-align: center;
+}
+.search-out {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.shop-name-search-out {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    color: #FFF;
+    background-color: #333;
+    font-weight: bold;
+    border: 1px solid #333;
+    position: relative;
+    left: -1;
+}
+
+.product-piece2 {
+    width: 300px;
+    height: 360px;
+    overflow: hidden;
+/*    background-color: green;*/
+    margin: auto auto 5px 5px;
+    border: 1px solid #aaa;
+    display: inline-block;
+}
+
+.stock-round2 {
+    height: 30px;
+    width: 30px;
+/*    background-color: #2EB3D1;*/
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    color: #FFF;
+    font-weight: bold;
+    font-family: "SFNS Display";
+/*    margin: 5px;*/
+    position: relative;
+    right: 5px;
+    top: 11px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.my-cart-section {
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+/*    background-color: cyan;*/
+    border-radius: 4px;
+/*    border: 1px solid #aaa;*/
+}
+
+.my-cart-header {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #666;
+    margin-bottom: 5px;
+/*    border-top-left-radius: 4px;*/
+/*    border-top-right-radius: 4px;*/
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    font-family: 'Dream Orphans';
+    font-size: 150%;
+    font-weight: bold;
+}
+.my-cart-list {
+    width: 100%;
+    height: auto;
+/*    overflow-y: scroll;*/
+}
+
+.my-cart-piece {
+/*    position: absolute;*/
+/*    margin-left: 5px;*/
+    width: 280px;
+    height: 300px;
+/*    background-color: aquamarine;*/
+/*    position: relative;*/
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+}
+.my-cart-img {
+    margin: 5px 65px 5px 65px;
+}
+
+.white-bg {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.line-up {
+    position: relative;
+    top: -20px;
+    background-color: #008062;
+    border: 1px solid #008062;
+}
+
+.roboto-font {
+    font-family: roboto;
+}
+
+.shope-name-cart {
+    width: 100%;
+    background-color: #333;
+    color: #FFF;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    font-family: 'roboto';
+    text-align: center;
+}
